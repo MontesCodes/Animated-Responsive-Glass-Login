@@ -8,10 +8,11 @@
 /* ----- Body background styling ----- */
 body {
   /* selector for body to set background image and font styles */
-  background: url(../Images/background.jpg) no-repeat center center/cover;
-  width: 100vw;
-  height: 100vh;
-  font-family: poppins, sans-serif;
+  background: url(../Images/background.jpg) no-repeat center center/cover; /* set background image with no repeat, centered, and cover the entire area */
+  width: 100vw; /* set full viewport width */
+  height: 100vh; /* set full viewport width and height */
+  font-family:
+    poppins, sans-serif; /* set font family to Poppins with sans-serif fallback */
   font-size: 1rem; /* set base font size 16px based on browser default 16px */
   overflow: hidden; /* prevent scrolling */
 }
