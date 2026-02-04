@@ -10,16 +10,23 @@
     <link rel="stylesheet" href="./CSS/style.css" />
   </head>
   <body>
-    <div class="container">
-      <input type="checkbox" id="toggle">
-      <div class="signin"> 
-        <h1>Sign In</h1>
-        <form>
-          <div class="social">
+    <div class="container"><!-- Container Start -->
+      <input type="checkbox" id="toggle"><!-- Toggle Checkbox -->
+      <div class="signin"> <!-- Sign In Section Start -->
+        <h1>Sign In</h1><!-- Sign In Heading -->
+        <form><!-- Sign In Form Start -->
+          <div class="social"> <!-- Social Media Icons -->
            <a href="#"><i class="fab fa-google-plus-g"></i></a>
            <a href="#"><i class="fab fa-facebook-f"></i></a>
            <a href="#"><i class="fab fa-linkedin"></i></a>
           </div>
+          <p>Or use enter your email and password </p> <!-- Sign In Description -->
+          <input type="email" placeholder="Email" required /><!-- Email Input Field -->
+          <input type="password" placeholder="Password" required /><!-- Password Input Field -->
+          <small>Forgot your password?</small><!-- Forgot Password Link -->
+          <input type="submit" value="Login" /><!-- Login Button -->
+          <small>Don't have an account? <label for="toggle"><!-- Switch to Sign Up Link -->
+            Sign Up</label></small><!-- Switch to Sign Up Link -->
         </form>
       </div>
   </body>
