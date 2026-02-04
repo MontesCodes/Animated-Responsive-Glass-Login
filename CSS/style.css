@@ -1,5 +1,26 @@
+/* zero out default margin and padding for all elements */
 * {
+  /* selector for all elements to zero out default margin and padding */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/* ----- Body background styling ----- */
+body {
+  /* selector for body to set background image and font styles */
+  background: url(../Images/background.jpg) no-repeat center center/cover;
+  width: 100vw;
+  height: 100vh;
+  font-family: poppins, sans-serif;
+  font-size: 1rem; /* set base font size 16px based on browser default 16px */
+  overflow: hidden; /* prevent scrolling */
+}
+/* -----Container for centering the login box ----- */
+.container {
+  /* selector for container to center login box */
+  position: relative; /* relative positioning for child absolute elements */
+  top: 50%; /* center vertically */
+  left: 50%; /* center horizontally */
+  transform: translate(-50%, -50%); /* adjust position to center */
+  width: 28rem; /* set width of container at 448px based on 16px base font size */
 }
