@@ -41,3 +41,10 @@ body {
     1.875rem
   ); /* apply a backdrop blur effect of 30px based on 16px = 1rem base font size */
 }
+
+.container h1 {
+  /* targeted selector for heading inside container */
+  font-size: 2.5rem; /* set heading font size to 40px based on 16px = 1rem base font size */
+  text-align: center; /* center align the heading text */
+  margin-bottom: 2rem; /* set bottom margin of 32px based on 16px = 1rem base font size */
+}
