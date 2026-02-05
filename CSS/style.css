@@ -25,3 +25,19 @@ body {
   transform: translate(-50%, -50%); /* adjust position to center */
   width: 28rem; /* set width of container at 448px based on 16px base font size */
 }
+/* ---------------- Signin/Signup box styling -------------- */
+.signin,
+.signup {
+  /* targeted selector for signin and signup boxes */
+  color: #fff; /* set text color to white */
+  position: relative; /* relative positioning for child absolute elements */
+  top: 0; /* set top position to 0 */
+  left: 0; /* set left position to 0 */
+  background: rgba(48, 30, 30, 0.1); /* set semi-transparent dark background */
+  border: 0.0625rem solid rgba(255, 255, 255, 0.5); /* set a 1px  semi-transparent white border with 16px = 1rem base font size */
+  padding: 3rem 2rem; /* set padding of 48px top/bottom and 32px left/right based on 16px = 1rem base font size */
+  border-radius: 1rem; /* set border radius of 16px based on 16px = 1rem base font size */
+  backdrop-filter: blur(
+    1.875rem
+  ); /* apply a backdrop blur effect of 30px based on 16px = 1rem base font size */
+}
