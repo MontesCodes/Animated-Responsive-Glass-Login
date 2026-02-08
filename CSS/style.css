@@ -48,3 +48,23 @@ body {
   text-align: center; /* center align the heading text */
   margin-bottom: 2rem; /* set bottom margin of 32px based on 16px = 1rem base font size */
 }
+
+.social {
+  /* targeted selector for social media icons container */
+  display: flex; /* use flexbox for layout of the social media icons */
+
+  justify-content: center; /* center the social media icons horizontally */
+  gap: 1rem; /* set gap of 16px between social media icons based on 16px = 1rem base font size */
+}
+
+.social a {
+  /* targeted selector for social media icon links */
+  border: 0.0625rem solid rgba(255, 255, 255, 0.5); /* set a 1px semi-transparent white border with 16px = 1rem base font size */
+  width: 3rem; /* set width of social media icon container to 48px based on 16px = 1rem base font size */
+  height: 3rem; /* set height of social media icon container to 48px based on 16px = 1rem base font size */
+  display: flex; /* use flexbox for layout of the social media icon */
+  align-items: center; /* center the social media icon vertically */
+  justify-content: center; /* center the social media icon horizontally */
+  text-decoration: none; /* remove underline from links */
+  border-radius: 50%; /* make the social media icon container circular */
+}
