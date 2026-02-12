@@ -126,3 +126,20 @@ p {
   color: #ff0; /* set label text color to yellow */
   cursor: pointer; /* change cursor to pointer on hover for label */
 }
+/* ------------- Signup box specific styling -------------- */
+.signup {
+  /* targeted selector for signup box */
+  display: none; /* hide signup box by default */
+}
+#toggle:checked ~ .signin {
+  /* targeted selector for signin box when toggle checkbox is checked */
+  display: none; /* hide signin box when toggle checkbox is checked */
+}
+#toggle:checked ~ .signup {
+  /* targeted selector for signup box when toggle checkbox is checked */
+  display: block; /* show signup box when toggle checkbox is checked */
+}
+.signup p {
+  /* targeted selector for paragraph text inside signup box */
+  text-align: center; /* center align paragraph text in signup box */
+}
