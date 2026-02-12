@@ -40,6 +40,7 @@ body {
   backdrop-filter: blur(
     1.875rem
   ); /* apply a backdrop blur effect of 30px based on 16px = 1rem base font size */
+  animation: animateForm 500ms ease forwards; /* apply form animation with 500ms duration and ease timing function */
 }
 
 .container h1 {
