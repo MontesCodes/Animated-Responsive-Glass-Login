@@ -95,11 +95,23 @@ p {
     0.15
   ); /* set semi-transparent white background for input fields */
   color: #fff; /* set input text color to white */
-  margin: 1rem; /* set margin of 16px around input fields based on 16px = 1rem base font size */
+  margin-top: 1rem; /* set margin of 16px around input fields based on 16px = 1rem base font size */
   font-size: 1rem; /* set input font size to 16px based on 16px = 1rem base font size */
 }
 
 .container form input::placeholder {
   /* targeted selector for input placeholder text */
   color: #fff; /* set placeholder text color to white */
+}
+.container form input[type='submit'] {
+  /* targeted selector for submit button input field */
+  background: #47d2fc; /* set background color for submit button */
+  transition: all 300ms ease; /* add transition effect for hover state of submit button */
+  cursor: pointer; /* change cursor to pointer on hover */
+}
+.container form input[type='submit']:hover {
+  /* hover state for submit button input field */
+  background: #fff; /* set background color to white on hover for submit button */
+  color: #000; /* set text color to black on hover for submit button */
+  opacity: 0.8; /* set opacity to 0.8 on hover for submit button */
 }
