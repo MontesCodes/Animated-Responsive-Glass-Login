@@ -115,3 +115,14 @@ p {
   color: #000; /* set text color to black on hover for submit button */
   opacity: 0.8; /* set opacity to 0.8 on hover for submit button */
 }
+.container form small {
+  /* targeted selector for small text inside form within container */
+  display: block; /* set small text to block display */
+  margin-top: 1rem; /* set top margin of 16px based on 16px = 1rem base font size */
+  opacity: 0.65; /* set opacity to 0.65 for small text */
+}
+.container form small label {
+  /* targeted selector for label inside small text within form in container */
+  color: #ff0; /* set label text color to yellow */
+  cursor: pointer; /* change cursor to pointer on hover for label */
+}
